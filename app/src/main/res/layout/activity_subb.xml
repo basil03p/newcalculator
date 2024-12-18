@@ -1,0 +1,80 @@
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#24D535"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      android:textSize="20dp"
+      android:text="First Digit"
+      android:layout_marginTop="200dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:id="@+id/numm1"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:hint="Enter first digit"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textSize="20dp"
+      android:text="Second Digit"
+      android:textColor="@color/black"
+      android:layout_marginTop="10dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:id="@+id/numm2"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:hint="Enter second digit"/>
+  <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_width="wrap_content"
+      android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SUB"
+        android:textStyle="bold"
+        android:id="@+id/subb"
+        android:textColor="#000000"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="#E2F600"
+        android:text="Go back"
+        android:textStyle="bold"
+        android:id="@+id/gobb"
+        android:textColor="#000000"/>
+  </LinearLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:textSize="20dp"
+      android:text="Result"
+      android:layout_marginTop="10dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:id="@+id/res"
+      android:layout_height="wrap_content"
+      android:inputType="number"/>
+</LinearLayout>
